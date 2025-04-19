@@ -1,70 +1,178 @@
 <!-- index.html -->
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Eyad's Portfoliot</title>
+        <link rel="stylesheet" href="style.css" />
+        <!-- Add Font Awesome CDN link -->
+        <link
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+          rel="stylesheet"
+        />
+        <link
+  href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap"
+  rel="stylesheet"
+/>
+
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>[Your Name] | Student & Hackathon Enthusiast</title>
-  <link rel="stylesheet" href="style.css" />
-</head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eyad's Portfolio</title>
+    <link rel="icon" type="image/png" href="https://cdn-icons-png.flaticon.com/128/684/684831.png">
+    <!-- Add your styles and other head content below -->
+  </head>
+  
+      
 <body>
-  <header>
-    <h1>[Your Full Name]</h1>
-    <p>Student | Aspiring Developer | Hackathon Enthusiast</p>
-    <nav>
-      <a href="#projects">Projects</a>
-      <a href="#skills">Skills</a>
-      <a href="#contact">Contact</a>
-    </nav>
-  </header>
+    <header>
+        <h1>Hi, I'm Mahmoudi Mohamed Eyad</h1>
+        <p>AI Student at ENSIA | Aspiring Developer | Hackathon Enthusiast</p>
+        <nav>
+          <a href="#about">About Me</a>
+          <a href="#projects">Projects</a>
+          <a href="#skills">Skills</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </header>
+      
+      
 
   <section id="about">
     <h2>About Me</h2>
     <p>
-      I'm a [your major] student passionate about building tech that solves real-world problems. I participate in hackathons to challenge myself, learn new tools, and collaborate with awesome people.
-    </p>
+        I'm a 3rd year student at the National Higher School of Artificial Intelligence (ENSIA) in Algiers, where I’m being trained in advanced areas of AI, computer science, and data-driven innovation . I'm passionate about building smart, meaningful technologies and enjoy applying what I learn in real-world scenarios, especially through hackathons and collaborative tech projects. I'm always looking for new challenges to grow my skills in AI, app development, and problem-solving.    </p>
   </section>
-
+  <section id="cv" class="cv-section">
+    <h2>📄 My CV</h2>
+    <div class="cv-container">
+      <div class="cv-info">
+        <p>Interested in my background, experience, and education? Download my CV below to learn more.</p>
+        <a href="C:\Users\lenovo\Downloads\Mahmoudi_Mohamed_Eyad_CV.pdf" class="cv-download" target="_blank">Download CV</a>
+      </div>
+    </div>
+  </section>
+  
   <section id="projects">
     <h2>Hackathon & Personal Projects</h2>
-
+  
     <div class="project">
-      <h3>🧠 Smart Recycle App</h3>
+      <h3>📱 RateIt – Mobile Rating App</h3>
       <p>
-        Built an AI-powered app to recognize waste and suggest recycling options. Won 2nd place at HackTheEarth 2024.
+        A cross-platform mobile application that allows users to post and review items such as movies and products. Includes a social layer where users can interact with others’ reviews.
       </p>
-      <p><strong>Tech used:</strong> Flutter, TensorFlow Lite, Firebase</p>
-      <a href="https://github.com/yourusername/recycle-app" target="_blank">GitHub Repo</a>
+      <p><strong>Technologies:</strong> Flutter · Firebase</p>
+      <a href="https://github.com/mooniirrr/rate-it" target="_blank">View on GitHub</a>
     </div>
-
+  
     <div class="project">
-      <h3>🔐 Password Strength Visualizer</h3>
+      <h3>📊 Thyroid Cancer Analysis – Data Mining Project</h3>
       <p>
-        A fun web tool that shows how secure your password is. Great for cybersecurity awareness.
+        Conducted in-depth analysis of thyroid cancer data using machine learning techniques such as clustering and classification to derive insights and support early detection.
       </p>
-      <p><strong>Tech used:</strong> HTML, CSS, JavaScript</p>
-      <a href="https://yourusername.github.io/password-visualizer/" target="_blank">Live Demo</a>
+      <p><strong>Technologies:</strong> Python · Scikit-learn · Pandas</p>
+      <a href="https://github.com/mooniirrr/analyzing-thyroid-cancer-data" target="_blank">View on GitHub</a>
+    </div>
+  
+    <div class="project">
+      <h3>💼 RecruitMe – Recruitment Website</h3>
+      <p>
+        A full-stack web platform for job postings, applicant profiles, and interview scheduling. Developed as part of a Software Engineering course project with a team of 4.
+      </p>
+      <p><strong>Technologies:</strong> HTML · CSS · JavaScript · Node.js</p>
+      <a href="https://github.com/TakieddineHarbadji/RECRUITMENT" target="_blank">View on GitHub</a>
     </div>
   </section>
+  
+  
 
   <section id="skills">
-    <h2>Skills & Tools</h2>
-    <ul>
-      <li>Languages: Python, Dart, JavaScript</li>
-      <li>Frameworks: Flutter, FastAPI, Scikit-learn</li>
-      <li>Tools: Git, VS Code, Figma, Supabase</li>
-    </ul>
-  </section>
+    <h2>Skills & Languages</h2>
+    <section id="skills">
+        <h2>Skills & Tools</h2>
+        <div class="skills-container">
+          
+          <!-- Skills I'm using now -->
+          <div class="skills-category">
+            <h3>Using Now:</h3>
+            <ul>
+              <li><i class="fab fa-python"></i> Python</li>
+              <li><i class="fab fa-react"></i> React</li>
+              <li><i class="fab fa-dart"></i> Dart</li>
+              <li><i class="fas fa-database"></i> SQL</li>
+            </ul>
+          </div>
+      
+          <!-- Skills I'm learning -->
+          <div class="skills-category">
+            <h3>Learning:</h3>
+            <ul>
+              <li><i class="fab fa-node"></i> Node.js</li>
+              <li><i class="fas fa-chart-line"></i> R</li>
+              <li><i class="fas fa-paint-brush"></i> UI/UX Design</li>
+              <li><i class="fas fa-cogs"></i> 3D Design</li>
+            </ul>
+          </div>
+      
+          <!-- Learned skills -->
+          <div class="skills-category">
+            <h3>Learned:</h3>
+            <ul>
+              <li><i class="fab fa-c"></i> C++</li>
+              <li><i class="fab fa-html5"></i> HTML</li>
+              <li><i class="fab fa-css3-alt"></i> CSS</li>
+              <li><i class="fab fa-java"></i> Java</li>
+            </ul>
+          </div>
+      
+        </div>
+      </section>
+      
+  
+    <section id="skills">
+        <h2>Languages & Skills</h2>
+      
+        <div class="skills-category">
+          <h3>Fluent Languages</h3>
+          <ul>
+            <li><img src="data:image/png;base64,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" alt="Arabic Flag" width="20" height="14"/> Arabic</li>
+            <li><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Flag_of_the_United_States.svg/1920px-Flag_of_United_States.svg.png" alt="English Flag" width="20" height="14"/> English (Intermediate)</li>
+            <li><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Flag_of_France.svg/2560px-Flag_of_France.svg.png" alt="French Flag" width="20" height="14"/> French (Intermediate)</li>
+          </ul>
+        </div>
+      
+        <div class="skills-category">
+          <h3>Learning</h3>
+          <ul>
+            <li><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAARMAAAC3CAMAAAAGjUrGAAAAkFBMVEXjChf////iAAD0trjjABHjAA/jAAvjBBTiAAb0srT++fn+9/j85+jrbXH74OH63d7mNTz4z9HwmZz3yszvi47yo6XmPEL97u/51dbkEx7sdHjlIivoUVfmMTjuhon75eblJzDvkZTpW1/qY2f2w8XypqnnRUv2xMb1vL7te3/raW7nQ0noTFLkEh3wl5rpV1z5j8JlAAAES0lEQVR4nO3d6XqiMBQGYDlGgmvdLaLWunR16v3f3QRsrS0nVjQKhO/9N+3z2Hgmy8lCKJUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOBWpHBdz3MrMu2CZIKgyPxpsVxM2jL6RyXtQqUojEAwHvQazrfRfXX2rn4u0i5cKjyiZnnkcGqdfkBUtIakqsjbMxuPL61HQW7axbwhQaVB/WhEIqsNeWkX9UYk+dW/AxK53xajrhCtT4xIFJWh/f2KoNdagpAoVaK0C31d5N8ni4hSX1pdVWh8ShBqoZ9Vxdo0TlD5jxrRGYzfg11m6w/fPlZf6UsjsLT9uO7dsYC0umH+Sq6IGoqUFS9Mc2ed3W8nVgaFAj5p3TWX9ZS4YVdNh0Q/yv3HFgaFpvrxZjQ7MvFTKe8i7Jhn1gWF2vo6MvtrbuPRQtWVvmVBcQNtLSmfkn941HecV6uCIkjXl9S3JyYfFNw5C5uCQroRp3d6klqhgdO2Z/ZDujnfIFGGSs26Z0tGS01NSJIOJTRZWdJ6hK8JSTPxF6TN2I4VFerwITlnGPHavvkC3p5u3vd4VjOwoj+RxGcmZUt6hnOoEZTzYGRNxM1ltRH/+JYzN7EiQms/j0HRpCZm5i700slhC5QeG5KWma9C5TzOlqnLxuTJTI4ertvlL93n537Phv5zw5g08raA7S3ZatI2tOQcre/mbVCnFy4kPVPfYrfmnXyKkCZNvrY11QV87gP4v6udyPA2Gd90RsYK/BmTux8fWCGad9eZDQqfnHRNx8QZ7D9RBWTabTlOdudF1OBiMjW2qbffQ9vt/rhEw0H0J7eZrSaSuJA0zJV3H5O6J1RANuvR73qTOXx3Ur1CTNRQNqnuUyFDWfJV0AcXE4Mbegf7z4fHnmLjUIbw2Ym57qTE78lneheV3cGomSuxZMe1lyyHpETcOT5TjT08XNt8iH/+KNvzH3bYMZLYq4CI1x738c4w0/NkyS6xXT7sqMxdzjR7AVnfaBdTrtAX5g4qIEFffybO2PTySipDrtQXZfaS5o/HDjvVs75oXXk3HRPpr44ExMnBaQzUkzj0J3EYdxjIT+KQx8ZhvhOHeXEc1k/i+HU2g3tUOVxnw3osg5hxwdzOaC7X7bG/w8A+YJxuv9jUGdc87hfjXAED508YOKcUh/NscTj3yNBcTlDk87H6c9QmqnxOz1Hrztub6RqzviStgecyGHh+h4HnvOLwPCDD3HOjW1ueGzX5fHHuEnk97XPoncI+h477Cji414Jh4P6TPE73jrvknpxl2B3ZF5Lz71OS9t6npPoUL9m9W2T/vVuJ72drft/P9mDr/Wwl3OPHwn2PDNwLysH9sYwk9wxPinHPcOn0+6ifChOREO4tZx27375XxPvtI/v3IByMROF7EIaFfQ/CzuH7MjZTUfj3ZXyL3qvi4r0qAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAC2+A8wJj1Fqfr12AAAAABJRU5ErkJggg==" alt="Turkish Flag" width="20" height="14"/> Turkish</li>
+            <li><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Flag_of_Germany.svg/2560px-Flag_of_Germany.svg.png" alt="German Flag" width="20" height="14"/> German</li>
+          </ul>
+        </div>
+      </section>
+      
+      
+  
 
-  <section id="contact">
-    <h2>Contact Me</h2>
-    <p>Email: <a href="mailto:your@email.com">your@email.com</a></p>
-    <p>GitHub: <a href="https://github.com/yourusername" target="_blank">github.com/yourusername</a></p>
-    <p>LinkedIn: <a href="https://linkedin.com/in/yourname" target="_blank">linkedin.com/in/yourname</a></p>
-  </section>
+      <section id="contact">
+        <h2>Contact Me</h2>
+        <div class="contact-icons">
+          <a href="https://mail.google.com/mail/?view=cm&fs=1&to=eyadmahmoudi30@gmail.com" target="_blank">
+            <i class="fas fa-envelope"></i> Email
+          </a>
+          <a href="https://github.com/eyadmahmoudi" target="_blank">
+            <i class="fab fa-github"></i> GitHub
+          </a>
+          <a href="https://www.linkedin.com/in/eyad-mahmoudi-970269351/" target="_blank">
+            <i class="fab fa-linkedin"></i> LinkedIn
+          </a>
+        </div>
+      </section>
+      
+  
 
   <footer>
-    <p>© 2025 [Your Name]. All rights reserved.</p>
+    <p>Made with ❤️ by Mahmoudi Mohamed Eyad</p>
   </footer>
 </body>
 </html>
