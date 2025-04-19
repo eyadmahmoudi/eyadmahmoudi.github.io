@@ -1,0 +1,38 @@
+/* style.css */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background: #f4f4f4;
+    color: #333;
+  }
+  header {
+    background: #222;
+    color: #fff;
+    padding: 2rem;
+    text-align: center;
+  }
+  nav a {
+    margin: 0 1rem;
+    color: #66fcf1;
+    text-decoration: none;
+  }
+  section {
+    padding: 2rem;
+    background: white;
+    margin: 1rem auto;
+    max-width: 800px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+  .project {
+    margin-bottom: 1.5rem;
+  }
+  footer {
+    text-align: center;
+    padding: 1rem;
+    background: #222;
+    color: white;
+  }
+  
